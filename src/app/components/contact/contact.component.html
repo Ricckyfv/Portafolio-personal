@@ -1,0 +1,176 @@
+<main class="flex-grow w-full max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+
+  <!-- Encabezado -->
+  <div class="mb-12 text-center md:text-left">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-50 mb-4 tracking-tight">Hablemos</h1>
+    <p class="text-lg text-slate-400 max-w-2xl mx-auto md:mx-0">
+      Ya sea que tengas un proyecto en mente, una pregunta sobre mi perfil, o simplemente quieras saludar, siempre estoy abierto a descubrir nuevas oportunidades.
+    </p>
+  </div>
+
+  <!-- Contenedor Principal (Grid) -->
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+    <!-- Sidebar de Información (Izquierda) -->
+    <!-- Agregamos items-center para móviles y md:items-start para escritorio -->
+    <div class="lg:col-span-5 flex flex-col gap-12 items-center md:items-start">
+
+      <!-- Bloque de Detalles -->
+      <div class="space-y-6 flex flex-col items-center md:items-start w-full">
+        <h3 class="text-2xl font-bold text-slate-50 text-center md:text-left">Detalles de Contacto</h3>
+
+        <!-- Elemento: Correo Electrónico -->
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-4 text-center md:text-left">
+          <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center flex-shrink-0 text-sky-400">
+            <!-- Icono SVG de Correo -->
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col items-center md:items-start">
+            <p class="text-xs text-slate-400 mb-1 uppercase tracking-widest font-semibold">Correo Electrónico</p>
+            <a class="text-base text-slate-200 hover:text-sky-400 transition-colors font-medium" href="mailto:ricardofervil@gmail.com">ricardofervil&#64;gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Elemento: Ubicación -->
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-4 text-center md:text-left">
+          <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center flex-shrink-0 text-sky-400">
+            <!-- Icono SVG de Ubicación -->
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col items-center md:items-start">
+            <p class="text-xs text-slate-400 mb-1 uppercase tracking-widest font-semibold">Ubicación</p>
+            <p class="text-base text-slate-200 font-medium">España <br/><span class="text-slate-400 text-sm font-normal">Disponible para trabajo remoto</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque de Redes Sociales -->
+      <div class="space-y-6 flex flex-col items-center md:items-start w-full">
+        <h3 class="text-2xl font-bold text-slate-50 text-center md:text-left">Redes Sociales</h3>
+        <!-- Usamos justify-center en móvil y md:justify-start en escritorio -->
+        <div class="flex justify-center md:justify-start gap-4">
+          <a aria-label="LinkedIn" target="_blank" class="w-12 h-12 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 border border-slate-700 hover:border-sky-500 hover:text-sky-400 hover:shadow-[0_0_15px_rgba(14,165,233,0.15)] transition-all group" href="#">
+            <svg class="w-5 h-5 fill-current transition-transform group-hover:scale-110" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+          </a>
+          <a aria-label="GitHub" target="_blank" class="w-12 h-12 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 border border-slate-700 hover:border-sky-500 hover:text-sky-400 hover:shadow-[0_0_15px_rgba(14,165,233,0.15)] transition-all group" href="#">
+            <svg class="w-5 h-5 fill-current transition-transform group-hover:scale-110" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario de Contacto (Derecha) -->
+    <div class="lg:col-span-7">
+      <div class="bg-slate-900 rounded-xl p-8 lg:p-10 border border-slate-700 shadow-xl">
+
+        <!-- <form action="#" class="flex flex-col gap-6" method="POST">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="name">Nombre</label>
+              <input class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="name" name="name" placeholder="Tu nombre" required type="text"/>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="email">Correo Electrónico</label>
+              <input class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="email" name="email" placeholder="hola@ejemplo.com" required type="email"/>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="subject">Asunto</label>
+            <input class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="subject" name="subject" placeholder="Consulta sobre proyecto" type="text"/>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="message">Mensaje</label>
+            <textarea class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full resize-none placeholder:text-slate-500" id="message" name="message" placeholder="Cuéntame sobre tu proyecto..." required rows="5"></textarea>
+          </div>
+
+          <button class="mt-4 bg-sky-500 text-slate-950 font-bold text-xs px-6 py-3.5 rounded-md hover:bg-sky-400 transition-all duration-300 uppercase tracking-widest flex items-center justify-center gap-2 group/btn w-fit" type="submit">
+            Enviar Mensaje
+            <svg class="w-4 h-4 transition-transform group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </button>
+
+        </form> -->
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="flex flex-col gap-6 relative z-10">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="name">Nombre</label>
+              <!-- Añadimos formControlName="name" -->
+              <input formControlName="name" class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="name" placeholder="Tu nombre" type="text"/>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="email">Correo Electrónico</label>
+              <!-- Añadimos formControlName="email" -->
+              <input formControlName="email" class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="email" placeholder="hola@ejemplo.com" type="email"/>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="subject">Asunto</label>
+            <!-- Añadimos formControlName="subject" -->
+            <input formControlName="subject" class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full placeholder:text-slate-500" id="subject" placeholder="Consulta sobre proyecto" type="text"/>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-widest" for="message">Mensaje</label>
+            <!-- Añadimos formControlName="message" -->
+            <textarea formControlName="message" class="bg-slate-950 border border-slate-700 rounded-md px-4 py-3 text-sm text-slate-100 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none transition-all w-full resize-none placeholder:text-slate-500" id="message" placeholder="Cuéntame sobre tu proyecto..." rows="5"></textarea>
+          </div>
+
+          <!-- Desactivamos el botón si el formulario es inválido usando [disabled] -->
+          <!-- <button [disabled]="contactForm.invalid" class="mt-4 bg-sky-500 text-slate-950 font-bold text-xs px-6 py-3.5 rounded-md hover:bg-sky-400 transition-all duration-300 uppercase tracking-widest flex items-center justify-center gap-2 group/btn w-fit disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-sky-500" type="submit">
+            Enviar Mensaje
+            <svg class="w-4 h-4 transition-transform group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </button> -->
+          <!-- Botón Moderno Sólido -->
+          <button [disabled]="contactForm.invalid || isSubmitting" class="mt-4 bg-sky-500 text-slate-950 font-bold text-xs px-6 py-3.5 rounded-md hover:bg-sky-400 transition-all duration-300 uppercase tracking-widest flex items-center justify-center gap-2 group/btn w-fit disabled:opacity-50 disabled:cursor-not-allowed" type="submit">
+            <!-- Cambiamos el texto dinámicamente -->
+            {{ isSubmitting ? 'Enviando...' : 'Enviar Mensaje' }}
+
+            <svg class="w-4 h-4 transition-transform group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Modal de Éxito controlado por @if -->
+@if (showModal) {
+  <div class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 backdrop-blur-sm px-4">
+    <!-- Contenedor de la tarjeta del modal -->
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl p-8 max-w-sm w-full shadow-2xl text-center transform transition-all">
+
+      <!-- Icono de Check de éxito -->
+      <div class="w-16 h-16 bg-sky-500/20 rounded-full flex items-center justify-center mx-auto mb-6 text-sky-400 border border-sky-500/30">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+      </div>
+
+      <!-- Textos del modal -->
+      <h3 class="text-2xl font-bold text-slate-50 mb-2">¡Mensaje Enviado!</h3>
+      <p class="text-slate-400 mb-8 text-sm">Gracias por contactarme. He recibido tu mensaje y te responderé lo antes posible al correo que me has dejado.</p>
+
+      <!-- Botón para cerrar -->
+      <button (click)="closeModal()" class="bg-sky-500 text-slate-950 font-bold px-6 py-3.5 rounded-md hover:bg-sky-400 transition-all w-full uppercase tracking-widest text-xs">
+        Cerrar
+      </button>
+    </div>
+  </div>
+}
