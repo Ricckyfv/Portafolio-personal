@@ -38,6 +38,14 @@ export class ProjectsComponent {
     },
     {
       id: 3,
+      title: 'Todo App',
+      description: 'Aplicación de lista de tareas pendientes.',
+      image: '/img-projects/todo-app.png',
+      technologies: ['Angular', 'TypeScript', 'Firebase Authentication', 'Cloud Firestore', 'Reactive Forms'],
+      link: 'https://to-do-app-five-zeta-45.vercel.app/'
+    },
+    {
+      id: 4,
       title: 'BeatHub Store',
       description: 'E-commerce de venta de auriculares, ofreciendo una experiencia fluida y atractiva para los amantes de la música.',
       image: '/img-projects/beathub-store.png',
@@ -53,7 +61,7 @@ export class ProjectsComponent {
       link: 'https://ricckyfv.github.io/Dulce-Encanto/'
     },
     {
-      id: 5,
+      id: 6,
       title: 'BlackJack Game',
       description: 'Juego interactivo de BlackJack para principiantes.',
       image: '/img-projects/blackjack-game.png',
